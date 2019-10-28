@@ -64,6 +64,7 @@ app.put('/projects/:id', CheckExisteID, (req, res) => {
 });
 
 //delete OK
+
 app.delete('/projects/:id', CheckExisteID, (req, res) => {
   const { id } = req.params;
   projects.splice(id, 1);
