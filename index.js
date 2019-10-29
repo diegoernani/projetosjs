@@ -4,7 +4,7 @@ app.use(express.json());
 const projects = [];
 let Cont = 0; 
 
-//middleware
+//middleware teste
 
 //middleware global - todas as rotas passam por ela.
 app.use((req, res, next) => {
